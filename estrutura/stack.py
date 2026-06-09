@@ -36,6 +36,10 @@ class Stack:
 
         return invertida
 
+    def is_empty(self):
+        """Retorna True se a fila estiver vazia, False caso contrário."""
+        return len(self.__data) == 0
+
 
 ## Main
 if __name__ == "__main__":

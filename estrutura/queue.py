@@ -43,6 +43,9 @@ class Queue:
         """Esvazia completamente a fila."""
         self._items.clear()
 
+    def __repr__(self) -> str:
+        return str(self._items)
+
 
 # Bloco de execução principal (Main)
 if __name__ == "__main__":
